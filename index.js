@@ -6,6 +6,11 @@ function convert(event)
     event.preventDefault();
     count++;
     const inch=document.getElementById('inch').value;
+    if(inch==0)
+    {
+        alert("0 can't convert");
+        rest();
+    }
     if(count<=1)
     {
     
@@ -26,8 +31,14 @@ function convert(event)
 
 function rest()
 {
-    count=0;
+    
     document.getElementById('inch').value=null;
+    console.log("calling rest funtion");
+    count=0;
+    console.log(count);
+    
+    
+    
 
 }
 
