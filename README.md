@@ -1,0 +1,1 @@
+LocalSync is a simple JavaScript project that allows users to store data (such as name, age, and email) in the browser's local storage. The data is displayed on the webpage and can be easily deleted with a function, removing it from both the display and local storage. It provides an easy way to manage and persist user data locally without needing a backend.
