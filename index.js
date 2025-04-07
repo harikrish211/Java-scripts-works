@@ -24,4 +24,18 @@ function getdata()
   })
 }
 
-put.addEventListener
+put.addEventListener('click',putdata);
+
+function putdata()
+{
+    axios.put('https://crudcrud.com/api/122747631c434d5db4409fd484044ce9/todo/67f368fec12ab503e86d244c',
+    {
+        username:"appu kuttan",
+        age:24,
+        gender:"m",
+
+    }
+).then(res=>{console.log(res);}).catch(er=>{console.log(er);}
+);
+}
+
