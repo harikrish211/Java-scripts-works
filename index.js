@@ -39,3 +39,13 @@ function putdata()
 );
 }
 
+del.addEventListener('click',delfun);
+function delfun()
+{
+    axios.delete('https://crudcrud.com/api/122747631c434d5db4409fd484044ce9/todo/67f368fec12ab503e86d244c').then(res=>{
+        console.log("deleted");
+        
+    }).catch(err=>{console.log('Not deleted');
+    })
+
+}
