@@ -58,7 +58,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: rgb(73, 73, 176);
 }
 
 
@@ -67,7 +67,7 @@ button:hover {
     text-align: center;
     font-size: 1.5rem;
     margin-bottom: 20px;
-    color: brown;
+    color: rgb(23, 14, 104);
    
 
 }
